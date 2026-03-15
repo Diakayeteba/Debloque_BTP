@@ -1,0 +1,316 @@
+# Objective
+
+Create a modern professional portfolio website for a building technician and construction project designer based in Mali.
+
+The website should showcase his experience in architectural drawing, building design, and major construction projects such as mosques, universities, agricultural factories, and private buildings.
+
+The goal of the website is to:
+- present his professional credibility
+- showcase his major projects
+- attract new private clients and construction partners
+- allow people to contact him for projects
+
+The site should feel professional, trustworthy, and modern.
+
+---
+
+# Context
+
+The website represents a building drawing technician and construction director from Mali who has participated in several major projects including:
+
+- The Great Mosque of Samaya
+- Public Universities in Mali
+- Agricultural product factories
+- Private construction projects
+
+He has strong experience in:
+- architectural building drawings
+- construction planning
+- project supervision
+- technical design for large infrastructures
+
+The website must communicate:
+- technical expertise
+- credibility
+- seriousness
+- experience in large scale projects
+
+Target audience:
+- private clients
+- construction companies
+- architects
+- investors
+- institutions
+
+---
+
+# Technical Stack
+
+Framework: Next.js  
+Language: JavaScript  
+React version: 18  
+Styling: Tailwind CSS  
+Package manager: npm  
+
+Rules:
+- Do NOT use TypeScript
+- Use functional React components
+- Use reusable components
+- Optimize images
+
+---
+
+# Project Structure
+
+/
+├── components
+│   ├── Navbar
+│   ├── HeroSection
+│   ├── AboutSection
+│   ├── ServicesSection
+│   ├── ProjectsSection
+│   ├── TestimonialsSection
+│   ├── ContactSection
+│   └── Footer
+│
+├── pages
+│   ├── index
+│   ├── projets
+│   └── contact
+│
+├── public
+│   ├── images
+│   └── logo
+│
+└── styles
+
+---
+
+# Global Requirements
+
+- Fully responsive design
+- Mobile-first layout
+- Professional design
+- Clean architecture
+- Reusable components
+- Fast loading performance
+- SEO friendly structure
+- Accessible UI
+
+Animations must be subtle and professional.
+
+---
+
+# Design System
+
+## Color Palette
+
+Primary: #1E3A8A (construction blue)  
+Secondary: #F59E0B (construction yellow / gold)  
+Background: #F9FAFB (light grey)  
+Text: #111827 (dark grey)  
+Accent: #374151  
+
+The design should evoke:
+- construction
+- engineering
+- reliability
+- professionalism
+
+---
+
+# Typography
+
+Headings:
+Font weight: bold
+
+Body:
+Font weight: normal
+
+Use a modern clean sans-serif font.
+
+---
+
+# Pages and Components
+
+---
+
+# 1 HeroSection
+
+Purpose:
+
+Immediately communicate the expertise of the professional and present his work.
+
+Requirements:
+
+Large background image of a construction project or architectural plan.
+
+Headline example:
+
+"Expert en dessin technique et supervision de chantiers"
+
+Subheadline:
+
+"Plus de 15 ans d'expérience dans la conception et la réalisation de projets de construction au Mali."
+
+CTA buttons:
+
+"Voir les projets"
+"Nous contacter"
+
+Animation:
+
+Soft fade-in animation for text and buttons.
+
+---
+
+# 2 AboutSection
+
+Purpose:
+
+Present the professional background.
+
+Content should include:
+
+- professional title
+- experience
+- types of projects handled
+- major achievements
+
+Example highlights:
+
+- Participation in the design of the Great Mosque of Samaya
+- Technical drawing for public universities in Mali
+- Industrial agricultural facilities
+- Numerous private construction projects
+
+Add a professional portrait if available.
+
+---
+
+# 3 ServicesSection
+
+Purpose:
+
+Explain the services offered.
+
+Services list:
+
+Architectural Drawing  
+Construction Supervision  
+Building Design  
+Technical Planning  
+Project Consulting
+
+Each service should be represented with an icon and short description.
+
+---
+
+# 4 ProjectsSection
+
+Purpose:
+
+Showcase major projects.
+
+Display project cards including:
+
+- Project title
+- Short description
+- Project image
+- Location
+- Type of building
+
+Example projects:
+
+Great Mosque of Samaya  
+Public Universities of Mali  
+Agricultural Production Factories  
+Private Residential Projects
+
+Cards should have hover animation.
+
+---
+
+# 5 TestimonialsSection
+
+Purpose:
+
+Show trust and credibility.
+
+Display client testimonials or project partner feedback.
+
+Each testimonial includes:
+
+- Name
+- Role
+- Short quote
+
+---
+
+# 6 ContactSection
+
+Purpose:
+
+Allow visitors to contact the professional.
+
+Include:
+
+- Contact form
+- Phone number
+- WhatsApp contact
+- Email
+- Location (Mali)
+
+Add a map if possible.
+
+---
+
+# Navigation
+
+Sticky navigation bar with:
+
+Home  
+Projects  
+Services  
+Contact
+
+Smooth scroll navigation.
+
+---
+
+# Footer
+
+Footer includes:
+
+- short professional description
+- contact information
+- social links (optional)
+- copyright
+
+---
+
+# Assets
+
+Images required:
+
+- construction sites
+- architectural drawings
+- building projects
+- engineering blueprints
+
+Images must look realistic and professional.
+
+---
+
+# Output Instructions
+
+Generate the complete website code with:
+
+- full project structure
+- all components
+- responsive design
+- clean code
+- working navigation
+- working contact form UI
+
+The project must be production-ready and easy to modify later.
