@@ -35,6 +35,7 @@ export default function AboutSection() {
           >
             {/* Main portrait */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/abdoulaye-keita.png"
                 alt="Abdoulaye KEITA"

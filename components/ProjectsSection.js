@@ -60,6 +60,7 @@ export default function ProjectsSection({ limit = 4 }) {
             >
               {/* Image */}
               <div className="relative h-64 overflow-hidden">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={projectImages[i % projectImages.length]}
                   alt={project.title}

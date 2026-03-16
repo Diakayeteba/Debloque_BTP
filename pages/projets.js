@@ -135,6 +135,7 @@ export default function ProjetsPage() {
                 >
                   {/* Image */}
                   <div className="relative h-56 overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={projectImages[i % projectImages.length]}
                       alt={project.title}
