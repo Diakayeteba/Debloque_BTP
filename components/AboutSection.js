@@ -37,7 +37,7 @@ export default function AboutSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/abdoulaye-keita.png"
+                src="/images/ID_pro_Ablo.png"
                 alt="Abdoulaye KEITA"
                 className="w-full h-[520px] object-cover object-top"
               />
